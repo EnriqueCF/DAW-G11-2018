@@ -14,9 +14,9 @@ import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Component;
 
-import com.daw.contafin.user.User;
+import com.daw.contafin.model.User;
+import com.daw.contafin.repository.UserRepository;
 import com.daw.contafin.user.UserComponent;
-import com.daw.contafin.user.UserRepository;
 
 
 

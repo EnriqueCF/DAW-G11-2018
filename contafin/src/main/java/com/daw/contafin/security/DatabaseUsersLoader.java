@@ -5,8 +5,8 @@ import javax.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.daw.contafin.user.User;
-import com.daw.contafin.user.UserRepository;
+import com.daw.contafin.model.User;
+import com.daw.contafin.repository.UserRepository;
 
 @Component
 public class DatabaseUsersLoader {
